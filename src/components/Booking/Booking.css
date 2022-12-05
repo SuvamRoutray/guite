@@ -1,0 +1,231 @@
+/* ------------------------------------- navbar ------------------------------- */
+.navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0%;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.bookhead {
+    padding: 3%;
+    height: auto;
+    width : 50%;
+    background-color: black;
+    background-image: linear-gradient(to bottom, #fc8738 0%, #ffe554 51%,  white 100%);
+}
+
+.mainhead {
+    text-decoration: none;
+    font-size: 320%;
+    font-weight: bolder;
+    color: white;
+}
+
+.boardhead {
+    padding: 3%;
+    height: auto;
+    width : 50%;
+    background-image: linear-gradient(to bottom, #fc8738 0%, #ffe554 51%,  white 100%);
+}
+
+.sidehead {
+    text-decoration: none;
+    font-size: 320%;
+    font-weight: bold;
+    opacity: 22%;
+    color: black;
+}
+
+/* ------------------------------------- btns ------------------------------- */
+
+.body-i {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.btn{
+    flex: 1 2 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.btn:hover {
+    background-position: right center;
+  }
+
+.bi {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%,  #f6d365 100%);
+}
+
+
+
+.ui {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.ei {
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+
+/* ------------------------------------- form ------------------------------- */
+
+.containeri {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 4% 4% 9% 9%;
+    overflow: hidden;
+}
+
+.ip{
+    font-size: large;
+    font-weight: bold;
+    padding: 8% 60% 0% 0%;
+}
+
+.ph {
+    padding-right: 3%;
+}
+
+.inp{
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20% #eee;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.dti{
+    width: 23.6rem;
+}
+
+
+.phi::placeholder{
+    color: black;
+}
+
+.ticket{
+  align-items: center;
+  object-fit: cover;
+  align-self: center;
+  padding-left: 38%;
+}
+
+@media (max-width: 1066px) {
+   .containeri { 
+    flex-direction: column;
+  }
+
+}
+
+/* ------------------------------------- submit button ------------------------------- */
+.fbtn{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.fsubmit{
+    flex: 40% auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    background-image: linear-gradient(to right, #ff0078 0%, #efa393 51%,  #f6efa7 100%);
+}
+
+.fsubmit:hover {
+    background-position: right center;
+  }
+
+  
+
+
+/* ------------------------------------- ticket ------------------------------- */
+
+  
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.grid td {
+  width: 5rem;
+  height: 5rem;
+  border: 0.2rem solid orange;
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: orange;
+  color: transparent;
+  display: inline-block;
+}
+
+.selected {
+  background: red;
+  color: transparent;
+  display: inline-block;
+}
+
+.reserved::after {
+  content: 'RESERVED'
+}
+
+.selected::after {
+  content: 'SELECTED'
+}
+
+.available::after {
+  content: 'AVAILABLE'
+}
+
+.available {
+  color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+.btnmargin{
+  margin-top: 15px;
+}

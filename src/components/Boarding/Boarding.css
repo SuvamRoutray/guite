@@ -1,0 +1,44 @@
+/* ------------------------------------- navbar ------------------------------- */
+.navbar1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ .boardhead1{
+    padding: 3%;
+    height: auto;
+    width : 50%;
+    background-image: linear-gradient(to bottom, #fc8738 0%, #ffe554 51%,  white 100%);
+    border-radius: 0% 0% 0% 0%;
+}
+
+.sidehead1 {
+    text-decoration: none;
+    font-size: 320%;
+    font-weight: bolder;
+    color: white;
+}
+
+.bookhead1 {
+    padding: 3%;
+    height: auto;
+    width : 50%;
+    background-image: linear-gradient(to bottom, #fc8738 0%, #ffe554 51%,  white 100%);
+}
+
+.mainhead1 {
+    text-decoration: none;
+    font-size: 320%;
+    font-weight: bold;
+    opacity: 22%;
+    color: black;
+}
+
+
+/* ------------------------------------- navbar ------------------------------- */

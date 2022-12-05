@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React, { Component } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Booking from './components/Booking/Booking';
+import Boarding from './components/Boarding/Boarding';
 
-function App() {
+
+
+class App extends Component {
+  render () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" exact element={<Booking/>}/>
+      <Route path="/boarding" exact element={<Boarding/>}/>
+    </Routes>
+    </BrowserRouter>
     </div>
   );
+
+}
 }
 
 export default App;
